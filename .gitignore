@@ -1,0 +1,50 @@
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore node_modules folder
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore environment files
+.env
+.env.local
+.env.*.local
+
+# Ignore build outputs
+dist/
+build/
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Ignore coverage reports
+coverage/
+.nyc_output/
+
+# Ignore temporary files
+*.tmp
+*.swp
+
+# Ignore compiled code
+*.out
+*.o
+
+# Ignore package-lock and yarn-lock files if using npm/yarn
+package-lock.json
+yarn.lock
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+
+stage1_test
+stage1_train
+final_model_for_nuclei.keras
